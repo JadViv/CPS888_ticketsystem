@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="741.3562647754137" y="891.0">User</node>
+    <node x="1244.7729314420803" y="134.0">Sellstandard</node>
+    <node x="1295.584101654846" y="11.0">Regular</node>
+    <node x="516.7083333333333" y="586.5">Buysell</node>
+    <node x="1512.7729314420803" y="145.5">Fullstandard</node>
+    <node x="631.6062647754138" y="311.0">Ticket</node>
+    <node x="976.7916666666666" y="311.0">Admin</node>
+    <node x="288.0" y="122.5">Admintransaction</node>
+    <node x="0.0" y="112.0">Refund</node>
+    <node x="440.5007683215127" y="0.0">Transaction</node>
+    <node x="846.4397754137112" y="532.0">Frontend</node>
+    <node x="973.7729314420803" y="134.0">Buystandard</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="User" target="Admintransaction">
+      <point x="-80.36111111111109" y="-159.0" />
+      <point x="792.4951536643026" y="841.0" />
+      <point x="342.10703309692644" y="841.0" />
+      <point x="342.10703309692644" y="291.0" />
+      <point x="362.25" y="291.0" />
+      <point x="-74.25" y="49.0" />
+    </edge>
+    <edge source="Admin" target="Admintransaction">
+      <point x="-52.5" y="-70.5" />
+      <point x="1029.2916666666665" y="261.0" />
+      <point x="510.75" y="261.0" />
+      <point x="74.25" y="49.0" />
+    </edge>
+    <edge source="Frontend" target="Buystandard">
+      <point x="12.291666666666742" y="-114.5" />
+      <point x="1006.231442080378" y="482.0" />
+      <point x="966.2916666666666" y="482.0" />
+      <point x="966.2916666666666" y="291.0" />
+      <point x="1015.6062647754138" y="291.0" />
+      <point x="-83.66666666666663" y="37.5" />
+    </edge>
+    <edge source="User" target="Admin">
+      <point x="51.138888888888914" y="-159.0" />
+      <point x="923.9951536643026" y="821.0" />
+      <point x="1171.7106087470447" y="821.0" />
+      <point x="1171.7106087470447" y="492.0" />
+      <point x="1123.7916666666665" y="492.0" />
+      <point x="42.0" y="70.5" />
+    </edge>
+    <edge source="Sellstandard" target="Regular">
+      <point x="0.0" y="-37.5" />
+      <point x="1368.7729314420803" y="92.0" />
+      <point x="1343.584101654846" y="92.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Admin" target="Frontend">
+      <point x="0.0" y="70.5" />
+      <point x="1081.7916666666665" y="512.0" />
+      <point x="1079.9814420803777" y="512.0" />
+      <point x="86.04166666666663" y="-114.5" />
+    </edge>
+    <edge source="Admin" target="Refund">
+      <point x="-87.5" y="-70.5" />
+      <point x="994.2916666666666" y="271.0" />
+      <point x="223.33333333333326" y="271.0" />
+      <point x="89.33333333333331" y="59.5" />
+    </edge>
+    <edge source="Frontend" target="User">
+      <point x="110.625" y="114.5" />
+      <point x="1104.5647754137112" y="811.0" />
+      <point x="909.3840425531914" y="811.0" />
+      <point x="36.527777777777715" y="-159.0" />
+    </edge>
+    <edge source="Refund" target="User">
+      <point x="-89.33333333333326" y="59.5" />
+      <point x="44.66666666666674" y="291.0" />
+      <point x="96.60644208037797" y="291.0" />
+      <point x="96.60644208037797" y="871.0" />
+      <point x="748.6618203309692" y="871.0" />
+      <point x="-124.19444444444446" y="-159.0" />
+    </edge>
+    <edge source="Buysell" target="Transaction">
+      <point x="-78.0" y="-60.0" />
+      <point x="555.7083333333333" y="512.0" />
+      <point x="595.5" y="512.0" />
+      <point x="595.5" y="92.0" />
+      <point x="530.5007683215126" y="92.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Fullstandard" target="Regular">
+      <point x="0.0" y="-26.0" />
+      <point x="1636.7729314420803" y="82.0" />
+      <point x="1362.7841016548462" y="82.0" />
+      <point x="19.200000000000045" y="15.0" />
+    </edge>
+    <edge source="User" target="Frontend">
+      <point x="-7.305555555555543" y="-159.0" />
+      <point x="865.5507092198582" y="781.0" />
+      <point x="883.3147754137112" y="781.0" />
+      <point x="-110.625" y="114.5" />
+    </edge>
+    <edge source="Refund" target="Transaction">
+      <point x="5.6843418860808015E-14" y="-59.5" />
+      <point x="134.0" y="82.0" />
+      <point x="458.5007683215127" y="82.0" />
+      <point x="-72.0" y="26.0" />
+    </edge>
+    <edge source="User" target="Ticket">
+      <point x="-21.916666666666742" y="-159.0" />
+      <point x="850.939598108747" y="801.0" />
+      <point x="761.2083333333333" y="801.0" />
+      <point x="761.2083333333333" y="512.0" />
+      <point x="747.0229314420804" y="512.0" />
+      <point x="-23.083333333333343" y="70.5" />
+    </edge>
+    <edge source="Admintransaction" target="User">
+      <point x="-24.75" y="49.0" />
+      <point x="411.75" y="281.0" />
+      <point x="386.0231087470445" y="281.0" />
+      <point x="386.0231087470445" y="831.0" />
+      <point x="807.1062647754137" y="831.0" />
+      <point x="-65.75" y="-159.0" />
+    </edge>
+    <edge source="Admin" target="Fullstandard">
+      <point x="87.5" y="-70.5" />
+      <point x="1169.2916666666665" y="291.0" />
+      <point x="1554.1062647754136" y="291.0" />
+      <point x="-82.66666666666674" y="26.0" />
+    </edge>
+    <edge source="Buystandard" target="Regular">
+      <point x="0.0" y="-37.5" />
+      <point x="1099.2729314420803" y="92.0" />
+      <point x="1324.384101654846" y="92.0" />
+      <point x="-19.200000000000045" y="15.0" />
+    </edge>
+    <edge source="Frontend" target="Regular">
+      <point x="-12.291666666666629" y="-114.5" />
+      <point x="981.6481087470446" y="492.0" />
+      <point x="941.1062647754138" y="492.0" />
+      <point x="941.1062647754138" y="82.0" />
+      <point x="1305.184101654846" y="82.0" />
+      <point x="-38.40000000000009" y="15.0" />
+    </edge>
+    <edge source="Admin" target="User">
+      <point x="84.0" y="70.5" />
+      <point x="1165.7916666666665" y="482.0" />
+      <point x="1182.7106087470447" y="482.0" />
+      <point x="1182.7106087470447" y="831.0" />
+      <point x="938.6062647754137" y="831.0" />
+      <point x="65.75" y="-159.0" />
+    </edge>
+    <edge source="Frontend" target="Ticket">
+      <point x="-135.20833333333326" y="-114.5" />
+      <point x="858.731442080378" y="512.0" />
+      <point x="793.1895981087471" y="512.0" />
+      <point x="23.083333333333314" y="70.5" />
+    </edge>
+    <edge source="Admintransaction" target="Transaction">
+      <point x="0.0" y="-49.0" />
+      <point x="436.5" y="92.0" />
+      <point x="494.5007683215127" y="92.0" />
+      <point x="-36.0" y="26.0" />
+    </edge>
+    <edge source="Buysell" target="Ticket">
+      <point x="0.0" y="-60.0" />
+      <point x="633.7083333333333" y="512.0" />
+      <point x="654.6895981087471" y="512.0" />
+      <point x="-115.41666666666666" y="70.5" />
+    </edge>
+    <edge source="Frontend" target="Admin">
+      <point x="61.45833333333337" y="-114.5" />
+      <point x="1055.3981087470447" y="512.0" />
+      <point x="1039.7916666666665" y="512.0" />
+      <point x="-42.0" y="70.5" />
+    </edge>
+    <edge source="User" target="Buystandard">
+      <point x="80.36111111111109" y="-159.0" />
+      <point x="953.2173758865248" y="841.0" />
+      <point x="1649.6486997635932" y="841.0" />
+      <point x="1649.6486997635932" y="271.0" />
+      <point x="1182.939598108747" y="271.0" />
+      <point x="83.66666666666674" y="37.5" />
+    </edge>
+    <edge source="User" target="Buysell">
+      <point x="-36.52777777777783" y="-159.0" />
+      <point x="836.3284869976359" y="811.0" />
+      <point x="633.7083333333333" y="811.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="Admin" target="Sellstandard">
+      <point x="52.5" y="-70.5" />
+      <point x="1134.2916666666665" y="281.0" />
+      <point x="1286.1062647754136" y="281.0" />
+      <point x="-82.66666666666674" y="37.5" />
+    </edge>
+    <edge source="User" target="Sellstandard">
+      <point x="94.97222222222217" y="-159.0" />
+      <point x="967.8284869976359" y="851.0" />
+      <point x="1660.6486997635932" y="851.0" />
+      <point x="1660.6486997635932" y="261.0" />
+      <point x="1451.439598108747" y="261.0" />
+      <point x="82.66666666666669" y="37.5" />
+    </edge>
+    <edge source="Regular" target="User">
+      <point x="38.40000000000009" y="15.0" />
+      <point x="1381.9841016548462" y="72.0" />
+      <point x="1771.2729314420803" y="72.0" />
+      <point x="1771.2729314420803" y="871.0" />
+      <point x="997.0507092198582" y="871.0" />
+      <point x="124.19444444444446" y="-159.0" />
+    </edge>
+    <edge source="Frontend" target="Transaction">
+      <point x="-61.45833333333326" y="-114.5" />
+      <point x="932.481442080378" y="512.0" />
+      <point x="919.1062647754138" y="512.0" />
+      <point x="919.1062647754138" y="82.0" />
+      <point x="566.5007683215126" y="82.0" />
+      <point x="36.0" y="26.0" />
+    </edge>
+    <edge source="Admin" target="Buystandard">
+      <point x="17.5" y="-70.5" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="User" target="Fullstandard">
+      <point x="109.58333333333337" y="-159.0" />
+      <point x="982.4395981087471" y="861.0" />
+      <point x="1689.834101654846" y="861.0" />
+      <point x="1689.834101654846" y="291.0" />
+      <point x="1719.439598108747" y="291.0" />
+      <point x="82.66666666666674" y="26.0" />
+    </edge>
+    <edge source="Frontend" target="Fullstandard">
+      <point x="135.20833333333326" y="-114.5" />
+      <point x="1129.1481087470445" y="512.0" />
+      <point x="1593.3986997635932" y="512.0" />
+      <point x="1593.3986997635932" y="291.0" />
+      <point x="1636.7729314420803" y="291.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Frontend" target="Sellstandard">
+      <point x="110.625" y="-114.5" />
+      <point x="1104.5647754137112" y="502.0" />
+      <point x="1325.3986997635932" y="502.0" />
+      <point x="1325.3986997635932" y="281.0" />
+      <point x="1368.7729314420803" y="281.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5910520609668541" x="995.3704622665535" y="707.2114222115395" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
